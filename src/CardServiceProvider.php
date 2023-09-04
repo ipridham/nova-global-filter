@@ -16,6 +16,7 @@ class CardServiceProvider extends ServiceProvider
     public function boot()
     {
         Nova::serving(function (ServingNova $event) {
+            
             Nova::script('nova-global-filter', __DIR__.'/../dist/js/card.js');
         });
     }

@@ -22,13 +22,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "Nemrutco\\NovaGlobalFilter\\": "src/"
+            "IPridham\\NovaGlobalFilter\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Ipridham\\NovaGlobalFilter\\CardServiceProvider"
+                "IPridham\\NovaGlobalFilter\\CardServiceProvider"
             ]
         }
     },
